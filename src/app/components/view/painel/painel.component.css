@@ -1,0 +1,97 @@
+
+#container{
+    height: 325px;
+    width: 368px;
+    margin: 100px auto;
+    background-color: rgb(23, 26, 25);
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
+.pergunta{
+    color: white;
+    opacity: 0.9;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.signoForm {
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.formInput {
+    background: white;
+    width: 60px;
+    padding: 5px 5px 8px 8px;
+    border: none;
+}
+
+
+.formSelect{ 
+    height: 50px;
+    border-radius: 5px;
+    background: white;
+    width: 180px;
+    padding: 5px;
+    font-size: 16px ;
+    border: none;
+}
+
+.botao {
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    margin: 30px auto;
+    background: rgb(173, 140, 50);
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+
+@media (max-width: 600px) {
+    #container{
+        height: 325px;
+        width: 200px;
+    }
+
+
+.signoForm {
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.formInput {
+    background: white;
+    width: 60px;
+    padding: 5px 5px 8px 8px;
+    border: none;
+}
+
+
+.formSelect{ 
+    width: 200px;
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    font-size: 14px ;
+
+}
+
+.botao {
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+}
+
+  }

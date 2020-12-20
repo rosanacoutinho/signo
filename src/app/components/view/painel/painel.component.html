@@ -1,0 +1,19 @@
+<div id="container">
+    <div>
+        <form class="signoForm"> 
+            <label for="signotype">
+                <p class="pergunta">Qual o seu signo? </p>
+            </label>
+            
+            <select id="signotype" name="signotype" class="formSelect"
+            [(ngModel)]="tipoSelecionado" [ngModelOptions]="{standalone: true}" required>
+            <option value=null disabled selected>Selecione..</option>
+            <option *ngFor="let tipo of tipos" [ngValue]="tipo.id">{{tipo.nome}}</option>
+            </select>
+
+            <button class="botao" mat-button (click)="goToPerfil()" [disabled]='tipoSelecionado == null'>Go</button>
+        </form>
+
+    </div>
+
+</div>

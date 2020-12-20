@@ -1,0 +1,14 @@
+    [
+    {"id" : "aries", "nome" : "Áries","descricao" : "aries.txt"},
+    {"id" : "touro",  "nome" : "Touro","descricao" : "touro.txt"},
+    {"id" : "gemeos",  "nome" : "Gêmeos","descricao" :"gemeos.txt"},
+    {"id" : "cancer",  "nome" : "Câncer","descricao" : "cancer.txt"},
+    {"id" : "leao",  "nome" : "Leão","descricao" : "leao.txt"},
+    {"id" : "virgem", "nome" : "Virgem", "descricao" : "virgem.txt"},
+    {"id" : "libra",  "nome" : "Libra","descricao" : "libra.txt"},
+    {"id" : "escorpiao", "nome" : "Escorpião", "descricao" : "escorpiao.txt"},
+    {"id" : "sagitario", "nome" : "Sagitário", "descricao" : "sagitario.txt"},
+    {"id" : "capricornio", "nome" : "Capricórnio", "descricao" : "capricornio.txt"},
+    {"id" : "aquario",  "nome" : "Aquario","descricao" : "aquario.txt"},
+    {"id" : "peixes",  "nome" : "Peixes","descricao" : "peixes.txt"}
+    ]

@@ -1,0 +1,33 @@
+#container{
+    height: auto;
+    width: 868px;
+    margin: 100px auto;
+    background-color: rgb(23, 26, 25);
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+h1{
+    color: white;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.caixa-texto{
+    margin: 30px;
+    padding-bottom: 30px;
+   
+}
+
+a{
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    #container{
+        height: auto;
+        width: auto;
+    }
+}
