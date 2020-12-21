@@ -10,3 +10,6 @@ res.sendFile(path.join(`${__dirname}/dist/${nomeApp}/index.html`));
 });
 
 app.listen(process.env.PORT || 8080);
+
+
+//https://www.devmedia.com.br/subindo-uma-aplicacao-angular-para-o-heroku/40260
